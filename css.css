@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.frontSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backSide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.backSide button {
+    width: 60px;
+}
+
+h2 {
+    margin-right: 20px;
+}
+
+#todoList {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 20px;
+
+}
+
+#taskInput {
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    opacity: .7;
+
+}
+
+
+
+li {
+    margin-bottom: 10px;
+
+}
+
+span {
+    font-size: 20px;
+    width: 100px;
+    border: none;
+
+}
+
+button {
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    background-color: crimson;
+    color: white;
+    border: none;
+
+}
